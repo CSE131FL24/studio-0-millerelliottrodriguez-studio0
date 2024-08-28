@@ -8,8 +8,12 @@ public class BurritoBudget {
 		int burritosEatenWeek3 = 19; //don't judge me
 		int burritosEatenWeek4 = 1;
 		
-		int totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4;
-		double averageWeeklyBurritos = totalBurritos / 4;
+		double totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4; //set to double instead of int
+		System.out.println(totalBurritos);
+		double averageWeeklyBurritos = totalBurritos / 4; //set to double instead of int (can't devide int by double)
+		System.out.println(averageWeeklyBurritos);
+
+		
 		
 		double burritoPrice = 7.50;
 		double averageWeeklyPrice = averageWeeklyBurritos * burritoPrice;

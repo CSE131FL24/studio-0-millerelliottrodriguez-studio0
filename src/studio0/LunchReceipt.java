@@ -10,6 +10,7 @@ public class LunchReceipt {
 		double guacPrice = 2.50;
 		
 		double subtotal = burritoPrice + drinkPrice + chipsPrice + guacPrice;
+		System.out.println(subtotal);
 		double taxRate = 0.04225;
 		double taxAmount = subtotal * taxRate;
 		double total = subtotal + taxAmount;

@@ -7,9 +7,9 @@ public class MileageReport {
 		int car2miles = 100;
 		int car3miles = 900;
 		
-		int totalMiles = car1miles + car2miles + car3miles;
+		double totalMiles = car1miles + car2miles + car3miles;//change to double
 		double milesPerGallon = 24.5;
-		double totalGallons = totalMiles * milesPerGallon;
+		double totalGallons = totalMiles / milesPerGallon; //change multiplication to division
 		double pricePerGallon = 3.05;
 		double totalPrice = totalGallons * pricePerGallon;
 		
